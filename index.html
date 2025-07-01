@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Missão Matemática</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section id="menu" class="menu">
+    <h1>🌌 Missão Matemática</h1>
+    <p>Conclua os níveis para desbloquear os próximos. Boa sorte!</p>
+
+    <button id="nivel1">🔓 Nível 1 - Números Inteiros</button>
+    <button id="nivel2" disabled>🔒 Nível 2 - Equações 1º grau</button>
+    <button id="nivel3" disabled>🔒 Nível 3 - Equações 2º grau</button>
+  </section>
+
+  <section id="nivel" class="nivel" style="display:none;">
+    <div id="explicacao" class="explicacao"></div>
+    <div id="pergunta" class="pergunta"></div>
+    <div id="feedback" class="feedback"></div>
+    <button id="btnComecar" style="display:none;">Começar Exercícios</button>
+    <button id="btnVoltarMenu" style="display:none;">Voltar ao Menu</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
